@@ -24,7 +24,7 @@ bool isEmpty(Stack* stack) {
 void push(Stack* stack, char item) {
     stack->stack[++stack->top] = item;
 }
-// Function to pop an element from the stack
+// Function to pop an element from the stack    
 char pop(Stack* stack) {
     return stack->stack[stack->top--];
 }
